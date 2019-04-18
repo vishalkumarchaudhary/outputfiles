@@ -1,0 +1,30 @@
+\chapter{Algorithm I}
+Game which have been used to test the validity of the algorithm is connect4. Connect4 is a two player game. 
+So the agent have to chose one valid action depending on the board state in such way that he will win the game. This problem is similar to multi-arm bandit problem in which one has to chose arm to maximise the reward or which minimize the regret. During the self play and doing Monte Carlo Tree Search(MCTS) we are using KL-UCB to select action given the history of rewards. In multi-arm bandit problem, KL-UCB has less regret than the UCB. We want to see whether this also work and improves the learning time of agent.
+
+For each state and action of game we store reward during self play and the create data for agent to learn upon those examples.
+ \begin{steps}
+  \item For each state having k valid actions
+  \item Choose every action once.
+  \item Then choose $A_{t}$ action at t - time
+	   
+$$ A_{t} = argmax_{i}\; \max \left \lbrace x  \in \lbrack 0,1 \rbrack  : d(\hat{x}_{i}(t-1), x) <=  \dfrac{\log N}{N_{i}} \right \rbrace  $$
+
+
+
+\end{steps}
+
+
+
+ 
+
+	
+
+\section{Conclusion}
+In this chapter, we proposed a distributed algorithm
+for construction of xyz.
+The complexity of this algorithm is $O(n \log n)$.
+Next chapter presents
+another distributed algorithm which has linear time 
+complexity based on xyz.
+
