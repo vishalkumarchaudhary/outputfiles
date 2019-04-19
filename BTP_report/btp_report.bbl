@@ -21,10 +21,23 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{Omar2016}
-H.~A. {Omar}, K.~{Abboud}, N.~{Cheng}, K.~R. {Malekshan}, A.~T. {Gamage}, and
-  W.~{Zhuang}, ``A survey on high efficiency wireless local area networks: Next
-  generation wifi,'' \emph{IEEE Communications Surveys Tutorials}, vol.~18,
-  no.~4, pp. 2315--2344, Fourthquarter 2016.
+\bibitem{klucb}
+\BIBentryALTinterwordspacing
+T.~Lattimore and C.~Szepesvári, ``Bandit algorithms book,'' p. 131. [Online].
+  Available: \url{https://tor-lattimore.com/downloads/book/book.pdf}
+\BIBentrySTDinterwordspacing
+
+\bibitem{alphagozero}
+D.~Silver, J.~Schrittwieser, K.~Simonyan, I.~Antonoglou, A.~Huang, A.~Guez,
+  T.~Hubert, L.~Baker, M.~Lai, A.~Bolton, Y.~Chen, T.~Lillicrap, F.~Hui,
+  L.~Sifre, G.~van~den Driessche, T.~Graepel, and D.~Hassabis, ``Mastering the
+  game of go without human knowledge.''
+
+\bibitem{thompson}
+D.~J. Russo, B.~V. Ro, A.~Kazerouni, I.~Osband, , and Z.~Wen, ``A tutorial on
+  thompson sampling,'' 2017.
+
+\bibitem{mcts}
+``add this.''
 
 \end{thebibliography}
