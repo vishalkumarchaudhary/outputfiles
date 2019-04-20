@@ -1,0 +1,16 @@
+\chapter{Experiment 0}
+\section{Introduction}
+This project investigates the application of reinforcement learning algorithm and neural networks to the problem of producing an agent that can play board games. With the help of neural network and concepts of artificial intelligence we want to build the framework in which the agent by itself would be able to create the optimal policy in a faster way. So experiments involve developing agent for 2048 game. Moreover 2048 is one player game and simpler to test algorithms.
+
+\section{2048 experiment}
+In this experiment $\epsilon$-greedy algorithm has been explored and the algorithm for that is as follows:
+
+\begin{steps}
+ \item Choose $\epsilon$ from [0,1] 
+ \item $x$ $\sim$ $uniform(0,1)$
+ \item if $x$ $<$ $\epsilon$:\\
+ 	\hspace{30mm} choose random action\\
+ 	else:\\
+ 	\hspace{15mm}exploit by taking most rewarding move so far.
+ 	
+\end{steps}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.4.17)  20 APR 2019 17:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.4.17)  20 APR 2019 19:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -355,11 +355,15 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
 les
 )
+(/usr/share/texlive/texmf-dist/tex/latex/tabto-ltx/tabto.sty
+Package: tabto 2013/03/25  v 1.3  Another tabbing mechanism
+\CurrentLineWidth=\dimen138
+)
 \c@stepsi=\count129
 \enitdp@steps=\count130
  (./btp_report.aux (./title.aux) (./certificate.aux) (./acknowledgement.aux) (.
 /abstract.aux)
-(./chapter1.aux) (./chapter2.aux) (./chapter3.aux
+(./chapter1.aux) (./chapter2.aux) (./chapter0.aux) (./chapter3.aux
 
 LaTeX Warning: Label `fig:phase' multiply defined.
 
@@ -372,31 +376,31 @@ LaTeX Warning: Label `fig:phase' multiply defined.
 ) (./chapter4.aux) (./futurework.aux))
 \openout1 = `btp_report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count131
-\scratchdimen=\dimen138
+\scratchdimen=\dimen139
 \scratchbox=\box55
 \nofMPsegments=\count132
 \nofMParguments=\count133
 \everyMPshowfont=\toks26
 \MPscratchCnt=\count134
-\MPscratchDim=\dimen139
+\MPscratchDim=\dimen140
 \MPnumerator=\count135
 \makeMPintoPDFobject=\count136
 \everyMPtoPDFconversion=\toks27
@@ -416,7 +420,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box56
-Package hyperref Info: Link coloring OFF on input line 38.
+Package hyperref Info: Link coloring OFF on input line 39.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -426,9 +430,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count137
 )
-LaTeX Info: Redefining \ref on input line 38.
-LaTeX Info: Redefining \pageref on input line 38.
-LaTeX Info: Redefining \nameref on input line 38.
+LaTeX Info: Redefining \ref on input line 39.
+LaTeX Info: Redefining \pageref on input line 39.
+LaTeX Info: Redefining \nameref on input line 39.
 
 (./btp_report.out) (./btp_report.out)
 \@outlinefile=\write3
@@ -437,7 +441,7 @@ LaTeX Info: Redefining \nameref on input line 38.
 \openout2 = `title.aux'.
 
  (./title.tex
-<IITPkdFullLogoColor.pdf, id=103, 270.00874pt x 264.99pt>
+<IITPkdFullLogoColor.pdf, id=115, 270.00874pt x 264.99pt>
 File: IITPkdFullLogoColor.pdf Graphic file (type pdf)
 
 <use IITPkdFullLogoColor.pdf>
@@ -493,7 +497,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.61 \include{chapter1}
+l.62 \include{chapter1}
                         [1
 
 ]
@@ -521,7 +525,7 @@ Chapter 2.
 [5
 
 
-] <images/selfplay.png, id=224, 630.355pt x 504.88625pt>
+] <images/selfplay.png, id=239, 630.355pt x 504.88625pt>
 File: images/selfplay.png Graphic file (type png)
 
 <use images/selfplay.png>
@@ -539,61 +543,73 @@ LaTeX Warning: Citation `ucb' on page 8 undefined on input line 37.
 
 ) [8]
 
-\openout2 = `chapter3.aux'.
 
-(./chapter3.tex
+\openout2 = `chapter0.aux'.
+
+(./chapter0.tex
 Chapter 3.
 [9
 
 
 
 
-] <images/kl-ucbVSbaseline.png, id=253, 387.4475pt x 266.9975pt>
+]) [10]
+
+\openout2 = `chapter3.aux'.
+
+(./chapter3.tex
+Chapter 4.
+[11
+
+
+
+
+] <images/kl-ucbVSbaseline.png, id=280, 387.4475pt x 266.9975pt>
 File: images/kl-ucbVSbaseline.png Graphic file (type png)
 
 <use images/kl-ucbVSbaseline.png>
 Package pdftex.def Info: images/kl-ucbVSbaseline.png used on input line 33.
 (pdftex.def)             Requested size: 433.62pt x 298.81921pt.
- [10] [11 <./images/kl-ucbVSbaseline.png>]
+ [12] [13 <./images/kl-ucbVSbaseline.png>]
 Overfull \hbox (4.73853pt too wide) in paragraph at lines 51--52
 \OT1/cmr/m/n/12 sam-pling whereas in KL-UCB re-quires op-ti-miza-tion and be-in
 g used is Netwon-Raphson
  []
 
 
-Overfull \hbox (16.61967pt too wide) in paragraph at lines 57--59
-[]\OT1/cmr/m/n/12 This model in Thomson-sampling branch. []$\OT1/cmtt/m/n/12 ht
-tps : / / github . com / vishalkumarchaudhary /
+Overfull \hbox (27.12929pt too wide) in paragraph at lines 57--59
+[]\OT1/cmr/m/n/12 This model is in Thomson-sampling branch. []$\OT1/cmtt/m/n/12
+ https : / / github . com / vishalkumarchaudhary /
  []
 
-[12
+[14
 
-] <images/thompsonVSbaseline.png, id=273, 387.4475pt x 266.9975pt>
+] <images/thompsonVSbaseline.png, id=300, 387.4475pt x 266.9975pt>
 File: images/thompsonVSbaseline.png Graphic file (type png)
 
 <use images/thompsonVSbaseline.png>
 Package pdftex.def Info: images/thompsonVSbaseline.png used on input line 63.
 (pdftex.def)             Requested size: 433.62pt x 298.81921pt.
 
-<images/kl-ucbVSthompson.png, id=274, 397.485pt x 266.9975pt>
+<images/kl-ucbVSthompson.png, id=301, 397.485pt x 266.9975pt>
 File: images/kl-ucbVSthompson.png Graphic file (type png)
 
 <use images/kl-ucbVSthompson.png>
 Package pdftex.def Info: images/kl-ucbVSthompson.png used on input line 76.
 (pdftex.def)             Requested size: 433.62pt x 291.27815pt.
- [13 <./images/thompsonVSbaseline.png>])
-[14 <./images/kl-ucbVSthompson.png>]
+ [15 <./images/thompsonVSbaseline.png>])
+[16 <./images/kl-ucbVSthompson.png>]
 
 \openout2 = `chapter4.aux'.
 
 (./chapter4.tex
-Chapter 4.
-) [15
+Chapter 5.
+) [17
 
 
 
 
-] [16
+] [18
 
 
 ]
@@ -601,31 +617,31 @@ Chapter 4.
 \openout2 = `futurework.aux'.
 
 (./futurework.tex
-Chapter 5.
-) [17
+Chapter 6.
+) [19
 
 
 ]
 
-(./btp_report.bbl [18
+(./btp_report.bbl [20
 
 
 ]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¡ in font cmr12!
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 78.
- [19
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 83.
+ [21
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 78.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 83.
  (./btp_report.aux (./title.aux) (./certificate.aux) (./acknowledgement.aux) (.
 /abstract.aux) (./chapter1.aux) (./chapter2.aux)
-(./chapter3.aux) (./chapter4.aux) (./futurework.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 78.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 78.
+(./chapter0.aux) (./chapter3.aux) (./chapter4.aux) (./futurework.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 83.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 83.
 Package rerunfilecheck Info: File `btp_report.out' has not changed.
-(rerunfilecheck)             Checksum: 9CB2DC639EB4502CD9F0EE7A27C37799;1472.
+(rerunfilecheck)             Checksum: 26CDAD759729C764C3CD572350B4062E;1641.
 
 
 LaTeX Warning: There were undefined references.
@@ -633,16 +649,16 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 78.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 83.
  ) 
 Here is how much of TeX's memory you used:
- 6860 strings out of 494910
- 99185 string characters out of 6179836
- 192797 words of memory out of 5000000
- 9927 multiletter control sequences out of 15000+600000
+ 6901 strings out of 494910
+ 99768 string characters out of 6179836
+ 193657 words of memory out of 5000000
+ 9949 multiletter control sequences out of 15000+600000
  16227 words of font info for 57 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 29i,6n,43p,1032b,455s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,6n,43p,1032b,463s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxsl10.pfb></usr/share/te
@@ -658,10 +674,10 @@ s12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on btp_report.pdf (27 pages, 375602 bytes).
+Output written on btp_report.pdf (29 pages, 378852 bytes).
 PDF statistics:
- 379 PDF objects out of 1000 (max. 8388607)
- 321 compressed objects within 4 object streams
- 71 named destinations out of 1000 (max. 500000)
- 226 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 408 PDF objects out of 1000 (max. 8388607)
+ 348 compressed objects within 4 object streams
+ 79 named destinations out of 1000 (max. 500000)
+ 250 words of extra memory for PDF output out of 10000 (max. 10000000)
 

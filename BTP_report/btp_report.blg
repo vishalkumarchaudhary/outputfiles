@@ -7,6 +7,7 @@ A level-1 auxiliary file: acknowledgement.aux
 A level-1 auxiliary file: abstract.aux
 A level-1 auxiliary file: chapter1.aux
 A level-1 auxiliary file: chapter2.aux
+A level-1 auxiliary file: chapter0.aux
 A level-1 auxiliary file: chapter3.aux
 A level-1 auxiliary file: chapter4.aux
 A level-1 auxiliary file: futurework.aux
@@ -25,7 +26,7 @@ Warning--I didn't find a database entry for "ucb"
 Done.
 You've used 4 entries,
             4024 wiz_defined-function locations,
-            832 strings with 7961 characters,
+            833 strings with 7973 characters,
 and the built_in function-call counts, 2182 in all, are:
 = -- 116
 > -- 104

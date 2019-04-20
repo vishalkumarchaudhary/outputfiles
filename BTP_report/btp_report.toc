@@ -3,7 +3,7 @@
 \contentsline {chapter}{List of Figures}{v}{chapter*.6}
 \contentsline {chapter}{List of Tables}{vi}{chapter*.7}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
-\contentsline {chapter}{\numberline {2}Review}{5}{chapter.2}
+\contentsline {chapter}{\numberline {2}Survey}{5}{chapter.2}
 \contentsline {section}{\numberline {2.1}Reinforcement learning by self-play}{5}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Self-play}{5}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}Training}{6}{subsection.2.1.2}
@@ -11,17 +11,20 @@
 \contentsline {section}{\numberline {2.2}Confidence bound}{7}{section.2.2}
 \contentsline {section}{\numberline {2.3}Simultaneous game}{8}{section.2.3}
 \contentsline {section}{\numberline {2.4}Conclusion}{8}{section.2.4}
-\contentsline {chapter}{\numberline {3}Confidence Bound}{9}{chapter.3}
-\contentsline {section}{\numberline {3.1}KL-UCB}{9}{section.3.1}
-\contentsline {section}{\numberline {3.2}Baseline results}{10}{section.3.2}
-\contentsline {section}{\numberline {3.3}Experiment}{10}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Results}{10}{subsection.3.3.1}
-\contentsline {section}{\numberline {3.4}Thomson sampling confidence bound}{12}{section.3.4}
-\contentsline {section}{\numberline {3.5}Experiment}{12}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Results}{13}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}Conclusion}{13}{subsection.3.5.2}
-\contentsline {chapter}{\numberline {4}Simultaneous Game}{15}{chapter.4}
-\contentsline {section}{\numberline {4.1}Construction}{15}{section.4.1}
-\contentsline {section}{\numberline {4.2}Conclusion}{15}{section.4.2}
-\contentsline {chapter}{\numberline {5}Conclusion and Future Work}{17}{chapter.5}
-\contentsline {chapter}{References}{19}{chapter.5}
+\contentsline {chapter}{\numberline {3}Experiment 0}{9}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{9}{section.3.1}
+\contentsline {section}{\numberline {3.2}2048 experiment}{9}{section.3.2}
+\contentsline {chapter}{\numberline {4}Confidence Bound}{11}{chapter.4}
+\contentsline {section}{\numberline {4.1}KL-UCB}{11}{section.4.1}
+\contentsline {section}{\numberline {4.2}Baseline results}{12}{section.4.2}
+\contentsline {section}{\numberline {4.3}Experiment}{12}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Results}{12}{subsection.4.3.1}
+\contentsline {section}{\numberline {4.4}Thomson sampling confidence bound}{14}{section.4.4}
+\contentsline {section}{\numberline {4.5}Experiment}{14}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Results}{15}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Conclusion}{15}{subsection.4.5.2}
+\contentsline {chapter}{\numberline {5}Simultaneous Game}{17}{chapter.5}
+\contentsline {section}{\numberline {5.1}Construction}{17}{section.5.1}
+\contentsline {section}{\numberline {5.2}Conclusion}{17}{section.5.2}
+\contentsline {chapter}{\numberline {6}Conclusion and Future Work}{19}{chapter.6}
+\contentsline {chapter}{References}{21}{chapter.6}

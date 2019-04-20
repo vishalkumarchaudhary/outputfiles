@@ -2,8 +2,9 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces a. self-play: each action $a \sim \pi $ is done after N simulation and single example is created with values depending upon lose or win and probability depending upon number of actions taken. b. Neural network is trained with the examples created during self-play }}{7}{figure.2.1}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Loss function during the training of Neural Network with $KL-UCB$ confidence bound compared with UCB1 confidence bound}}{11}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Comparison between Thompson and UCB of training loss with respect to number of Epochs }}{13}{figure.3.2}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Loss function during the training of Neural Network with $KL-UCB$ confidence bound compared with KL-UCB confidence bound}}{14}{figure.3.3}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Loss function during the training of Neural Network with $KL-UCB$ confidence bound compared with UCB1 confidence bound}}{13}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Comparison between Thompson and UCB of training loss with respect to number of Epochs }}{15}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Loss function during the training of Neural Network with $KL-UCB$ confidence bound compared with KL-UCB confidence bound}}{16}{figure.4.3}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
