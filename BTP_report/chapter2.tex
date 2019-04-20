@@ -27,13 +27,15 @@ Selection of neural network is done with the help of tournaments between the new
   \end{figure}
 
 \section{Confidence bound}
-So far Upper confidence bound is being using during the Monte Carlo Tree Search (MCTS)\cite{mcts} which minimize the regret.$$ A_{t} = argmax_{i}\; \left \lbrace Q_{i}(t-1) + c*P(s,a_{i}) \sqrt{\dfrac{2* \log N}{N_{i}}} \right \rbrace $$
-$A_{t}$ is action taken at time $t$, $Q_{i}$ is average reward after taking $i^{th}$ action, $c$ is temperature parameter, $P(s,a_{i})$ is the probability of taking $i^{th}$ action in state $s$, $N$ is total number of simulations and $N_{i}$ is number of time $i^{th}$ action has been taken.
+So far Upper confidence bound is being using during the Monte Carlo Tree Search (MCTS)\cite{mcts} which minimize the regret.$$ A_{t} = argmax_{i}\; \left \lbrace Q_{i}(t-1) + \sqrt{\dfrac{2* \log N}{N_{i}}} \right \rbrace $$
+$A_{t}$ is action taken at time $t$, $Q_{i}$ is average reward after taking $i^{th}$ action, $N$ is total number of simulations and $N_{i}$ is number of time $i^{th}$ action has been taken.
 
-
+\section{Simultaneous game}
+There is only little work done on reinforcement learning on simulataneous game. One work we found is on the game Goofspiel. We wanted to know whether this learning setup through self-play with MCTS can be applied over this kind of games also or not.
 
 \section{Conclusion}
-...................................
+This UCB \cite{ucb} variant called UCB1 which reaches to its optimal value i.e minimizing regrets asymtotically. The method for action selection during self-play in Monte Carlo Tree Search is done with this confidence bound and it is the core part of Tree search. So improving or using better confidence interval promises better results.
 
 
+Also exploring the scope of the algorithm to more random field(simultaneous games) can be fruitful.
 
