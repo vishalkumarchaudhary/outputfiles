@@ -8,9 +8,27 @@ In this experiment $\epsilon$-greedy algorithm has been explored and the algorit
 \begin{steps}
  \item Choose $\epsilon$ from [0,1] 
  \item $x$ $\sim$ $uniform(0,1)$
- \item if $x$ $<$ $\epsilon$:\\
- 	\hspace{30mm} choose random action\\
- 	else:\\
- 	\hspace{15mm}exploit by taking most rewarding move so far.
- 	
+ \item if $x$ $<$ $\epsilon$:
+ 	Choose random action\\
+ 	else:
+ 	Exploit it by taking most rewarding action from current state
 \end{steps}
+
+\section{Model Architecture}
+
+\begin{figure}
+ 	[!htb]\centering
+    \includegraphics[width=4in]{images/model1.png}
+    \caption{Simple neural network with 4*4*16 as board state}
+  \label{fig:phase}
+  \end{figure}
+
+\begin{figure}
+ 	[!htb]\centering
+    \includegraphics[width=4in]{images/model2.png}
+    \caption{More complex neural network than model 1 because last layer is directly connected to two previous layers}
+  \label{fig:phase}
+  \end{figure}
+ 
+\section{Results and conclusion}
+After analyzing loss function and board reaching to maximum number is compared and averaged over 20 number of games, both got similar results and loss function for both network was same. So the architecture of neural network does not affect much.
